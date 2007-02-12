@@ -5,7 +5,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - libstatgrab bindings
-Summary(pl):	%{_modname} - dowi±zania biblioteki libstatgrab
+Summary(pl.UTF-8):   %{_modname} - dowiÄ…zania biblioteki libstatgrab
 Name:		php4-pecl-%{_modname}
 Version:	0.6.0
 Release:	1
@@ -32,13 +32,13 @@ libstatgrab library.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-libstatgrab to biblioteka dostarczaj±ca wspólny interfejs do
-odczytywania ró¿nych statystyk systemowych na wielu systemach
+%description -l pl.UTF-8
+libstatgrab to biblioteka dostarczajÄ…ca wspÃ³lny interfejs do
+odczytywania rÃ³Å¼nych statystyk systemowych na wielu systemach
 uniksowych.
 
-To rozszerzenie pozwala wywo³ywaæ funkcje udostêpniane przez
-bibliotekê libstatgrab.
+To rozszerzenie pozwala wywoÅ‚ywaÄ‡ funkcje udostÄ™pniane przez
+bibliotekÄ™ libstatgrab.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
