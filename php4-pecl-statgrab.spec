@@ -5,7 +5,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - libstatgrab bindings
-Summary(pl.UTF-8):   %{_modname} - dowiązania biblioteki libstatgrab
+Summary(pl.UTF-8):	%{_modname} - dowiązania biblioteki libstatgrab
 Name:		php4-pecl-%{_modname}
 Version:	0.6.0
 Release:	1
